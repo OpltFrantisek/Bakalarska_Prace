@@ -1,0 +1,82 @@
+- action:
+  - service: script.1522670956418
+  alias: update_modbus
+  condition:
+  - condition: state
+    entity_id: script.1522670956418
+    state: 'off'
+  id: '1522671186544'
+  trigger:
+  - event_data: {}
+    event_type: time_changed
+    platform: event
+- action:
+  - alias: ''
+    data:
+      entity_id: switch.1_4
+    service: switch.turn_on
+  alias: zapnuti_svetel_chodba
+  condition: []
+  id: '1522672482244'
+  trigger:
+  - platform: template
+    value_template: '{{ states(''sensor.time'') == (states.input_datetime.chodba_od.attributes.timestamp
+      | int | timestamp_custom(''%H:%M'', False)) }}'
+- action:
+  - data:
+      entity_id: switch.1_4
+    service: switch.turn_off
+  alias: vypnout_svetla_chodba
+  condition: []
+  id: '1522673010491'
+  trigger:
+  - platform: template
+    value_template: '{{ states(''sensor.time'') == (states.input_datetime.chodba_do.attributes.timestamp
+      | int | timestamp_custom(''%H:%M'', False)) }}'
+- action:
+  - alias: ''
+    data:
+      entity_id: switch.0_10
+    service: switch.turn_on
+  alias: zapnuti_intim1_obyvak
+  condition: []
+  id: '1522672482244'
+  trigger:
+  - platform: template
+    value_template: '{{ states(''sensor.time'') == (states.input_datetime.obyvak_intim1_od.attributes.timestamp
+      | int | timestamp_custom(''%H:%M'', False)) }}'
+- action:
+  - data:
+      entity_id: switch.0_10
+    service: switch.turn_off
+  alias: vypnout_intim1_obyvak
+  condition: []
+  id: '1522673010491'
+  trigger:
+  - platform: template
+    value_template: '{{ states(''sensor.time'') == (states.input_datetime.obyvak_intim1_do.attributes.timestamp
+      | int | timestamp_custom(''%H:%M'', False)) }}'
+- action:
+  - alias: ''
+    data:
+      entity_id: switch.0_14
+    service: switch.turn_on
+  alias: zapnuti_intim2_obyvak
+  condition: []
+  id: '1522672482244'
+  trigger:
+  - platform: template
+    value_template: '{{ states(''sensor.time'') == (states.input_datetime.obyvak_intim2_od.attributes.timestamp
+      | int | timestamp_custom(''%H:%M'', False)) }}'
+- action:
+  - data:
+      entity_id: switch.0_14
+    service: switch.turn_off
+  alias: vypnout_intim2_obyvak
+  condition: []
+  id: '1522673010491'
+  trigger:
+  - platform: template
+    value_template: '{{ states(''sensor.time'') == (states.input_datetime.obyvak_intim2_do.attributes.timestamp
+      | int | timestamp_custom(''%H:%M'', False)) }}'
+

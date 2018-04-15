@@ -1,0 +1,86 @@
+group.all_switches: {}
+switch.0_0:
+  friendly_name: Strop_1
+  icon: mdi:lightbulb-on-outline
+switch.0_1:
+  friendly_name: Strop_2
+  icon: mdi:lightbulb-on-outline
+switch.0_2:
+  friendly_name: Strop_4
+  icon: mdi:lightbulb-on-outline
+switch.0_3:
+  friendly_name: Strop_5
+  icon: mdi:lightbulb-on-outline
+switch.0_4:
+  friendly_name: Strop_3
+  icon: mdi:lightbulb-on-outline
+switch.0_5:
+  friendly_name: Strop_6
+  icon: mdi:lightbulb-on-outline
+switch.0_6:
+  friendly_name: Strop_7
+  icon: mdi:lightbulb-on-outline
+switch.0_7:
+  friendly_name: Strop_8
+  icon: mdi:lightbulb-on-outline
+switch.0_8:
+  friendly_name: Bar_1
+  icon: mdi:lightbulb-on-outline
+switch.0_9:
+  friendly_name: Bar_2
+  icon: mdi:lightbulb-on-outline
+switch.0_10:
+  friendly_name: Intim_1
+  icon: mdi:lightbulb-on-outline
+switch.0_11:
+  friendly_name: Stěna_3
+  icon: mdi:lightbulb-on-outline
+switch.0_12:
+  friendly_name: Stěna_1
+  icon: mdi:lightbulb-on-outline
+switch.0_13:
+  friendly_name: Stěna_2
+  icon: mdi:lightbulb-on-outline
+switch.0_14:
+  friendly_name: Intim_2
+  icon: mdi:lightbulb-on-outline
+switch.0_15:
+  friendly_name: LED_1
+  icon: mdi:lightbulb-on-outline
+switch.1_0:
+  friendly_name: Obraz
+  icon: mdi:lightbulb-on-outline
+switch.1_1:
+  friendly_name: LED_2
+  icon: mdi:lightbulb-on-outline
+switch.1_2:
+  friendly_name: Světlo
+  icon: mdi:lightbulb-on-outline
+switch.1_3:
+  friendly_name: Světlo
+  icon: mdi:lightbulb-on-outline
+switch.1_4:
+  friendly_name: Intim
+  icon: mdi:lightbulb-on-outline
+switch.1_5:
+  friendly_name: Zasuvka
+switch.1_6:
+  friendly_name: 'Světlo '
+  icon: mdi:lightbulb-on-outline
+switch.1_7:
+  friendly_name: Světlo
+  icon: mdi:lightbulb-on-outline
+switch.1_8:
+  friendly_name: Světlo
+  icon: mdi:lightbulb-on-outline
+switch.1_9:
+  friendly_name: Světlo
+  icon: mdi:lightbulb-on-outline
+switch.1_10:
+  friendly_name: Světlo 1
+  icon: mdi:lightbulb-on-outline
+switch.1_11:
+  friendly_name: Světlo 2
+  icon: mdi:lightbulb-on-outline
+switch.1_12:
+  friendly_name: Zásuvka

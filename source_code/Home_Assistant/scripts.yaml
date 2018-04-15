@@ -1,0 +1,6 @@
+'1522670956418':
+  alias: CteniDatPlc
+  sequence:
+  - data: {}
+    service: plc_modbus.plc_write
+  - service: plc_modbus.plc_read

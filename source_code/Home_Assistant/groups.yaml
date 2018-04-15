@@ -1,0 +1,177 @@
+#Views
+default_view:
+    view: yes
+    name: patro
+    entities:
+      - group.obyvaci_pokoj
+      - group.loznice
+      - group.chodba
+      - group.pracovna
+      - group.koupelna
+      - group.wc
+      - group.balkon
+
+prizemi:
+    view: yes
+    name: prizemi
+    entities:
+
+ostatni:
+    view: true
+    name: Ostatni
+    entities:
+      - group.spinace_vse
+      - group.system
+      - group.chodba_intim
+      - group.zarizeni
+      - group.obyvak_intim
+      - group.intim1
+      - group.intim2
+      - group.komunikace
+      - group.zachod
+      - group.nastaveni_koupelna
+
+#Groups
+zachod:
+    name: Zachod
+    
+nastaveni_koupelna:
+    name: Koupelna
+
+balkon:
+    name: Balkon
+    entities:
+        - switch.1_10
+        - switch.1_11
+        - switch.1_12
+
+zarizeni:
+    name: Zařízení
+    entities:
+        - device_tracker.1008c1319842
+        - device_tracker.245ebe0a5f41
+        - device_tracker.00255628d158
+        - device_tracker.685d43773a35
+        - device_tracker.9cda3ea70d78
+        - device_tracker.dc0b34864424
+        - device_tracker.gateway
+wc:
+    name: Záchod
+    entities:
+        - switch.1_9
+
+koupelna:
+    name: Koupelna
+    entities:
+        - switch.1_7
+        - switch.1_8
+
+pracovna:
+    name: Pracovna
+    entities:
+        - switch.1_6
+
+chodba:
+    name: Chodba
+    entities:
+        - switch.1_4
+        - switch.1_3
+        
+komunikace:
+    name: Komunikace
+    entities:
+        - automation.update_modbus
+
+intim1:
+    name: Intim 1
+    entities:
+         - automation.zapnuti_intim1_obyvak
+         - automation.vypnout_intim1_obyvak
+         - input_datetime.obyvak_intim1_od
+         - input_datetime.obyvak_intim1_do
+intim2:
+    name: Intim 2
+    entities:
+         - automation.zapnuti_intim2_obyvak
+         - automation.vypnout_intim2_obyvak
+         - input_datetime.obyvak_intim2_od
+         - input_datetime.obyvak_intim2_do
+
+
+chodba_intim:
+    name: Chodba
+    entities:
+        - automation.zapnuti_svetel_chodba
+        - automation.vypnout_svetla_chodba
+        - switch.1_4
+        - input_datetime.chodba_od
+        - input_datetime.chodba_do
+
+spinace_vse:
+    name: Spinace
+    entities:
+      - switch.0_0
+      - switch.0_1
+      - switch.0_2
+      - switch.0_3
+      - switch.0_4
+      - switch.0_5
+      - switch.0_6
+      - switch.0_7
+      - switch.0_8
+      - switch.0_9
+      - switch.0_10
+      - switch.0_11
+      - switch.0_12
+      - switch.0_13
+      - switch.0_14
+      - switch.0_15
+      - switch.1_0
+      - switch.1_1
+      - switch.1_2
+      - switch.1_3
+      - switch.1_4
+      - switch.1_5
+      - switch.1_6
+      - switch.1_7
+      - switch.1_8
+      - switch.1_9
+      - switch.1_10
+      - switch.1_11
+      - switch.1_12
+      - switch.1_13
+      - switch.1_14
+      - switch.1_15
+
+obyvaci_pokoj:
+    name: Obývaci pokoj
+    entities:
+      - switch.0_0
+      - switch.0_1
+      - switch.0_2
+      - switch.0_3
+      - switch.0_4
+      - switch.0_5
+      - switch.0_6
+      - switch.0_7
+      - switch.0_8
+      - switch.0_9
+      - switch.0_10
+      - switch.0_11
+      - switch.0_12
+      - switch.0_13
+      - switch.0_14
+      - switch.0_15
+      - switch.1_0
+      - switch.1_1
+
+loznice:
+    name: Ložnice
+    entities:
+      - switch.1_2
+      - switch.1_5
+
+system:
+   name: System
+   entities:
+     - sensor.cpu_used
