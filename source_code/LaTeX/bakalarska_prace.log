@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  15 APR 2018 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  15 APR 2018 13:01
 entering extended mode
 **./bakalarska_prace.tex
 (bakalarska_prace.tex
@@ -1139,7 +1139,53 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip75
 )
-No file bakalarska_prace.aux.
+(bakalarska_prace.aux
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+)
 \openout1 = `bakalarska_prace.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
@@ -1157,7 +1203,7 @@ LaTeX Font Info:    ... okay on input line 148.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 148.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 148.
@@ -1273,11 +1319,13 @@ LaTeX Info: Redefining \Ref on input line 515.
 LaTeX Info: Redefining \ref on input line 148.
 LaTeX Info: Redefining \pageref on input line 148.
 LaTeX Info: Redefining \nameref on input line 148.
+
+(bakalarska_prace.out) (bakalarska_prace.out)
 \@outlinefile=\write3
 \openout3 = `bakalarska_prace.out'.
 
 LaTeX Info: Redefining \Ref on input line 148.
-<prf-logo.png, id=3, 158.2713pt x 166.4619pt>
+<prf-logo.png, id=107, 158.2713pt x 166.4619pt>
 File: prf-logo.png Graphic file (type png)
 <use prf-logo.png>
 Package pdftex.def Info: prf-logo.png  used on input line 158.
@@ -1350,6 +1398,20 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 246.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 24.88pt on input line 246.
+ (bakalarska_prace.toc
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 4.
+)
 \tf@toc=\write4
 \openout4 = `bakalarska_prace.toc'.
 
@@ -1382,7 +1444,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 263.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 265.
-<images/modbus.PNG, id=72, 1373.88281pt x 561.59813pt>
+<images/modbus.PNG, id=201, 1373.88281pt x 561.59813pt>
 File: images/modbus.PNG Graphic file (type png)
 <use images/modbus.PNG>
 Package pdftex.def Info: images/modbus.PNG  used on input line 270.
@@ -1393,23 +1455,7 @@ Overfull \hbox (28.46753pt too wide) in paragraph at lines 270--271
  []
 
 [15 <./images/modbus.PNG>]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 279.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 279.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 279.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 279.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 279.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 279.
-
-
-LaTeX Warning: Citation `Berger2013' on page 16 undefined on input line 302.
-
-<images/scanTime.PNG, id=82, 457.71pt x 536.0025pt>
+<images/scanTime.PNG, id=210, 457.71pt x 536.0025pt>
 File: images/scanTime.PNG Graphic file (type png)
 <use images/scanTime.PNG>
 Package pdftex.def Info: images/scanTime.PNG  used on input line 305.
@@ -1474,17 +1520,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./images/scanTime.PNG>]
-<images/LAD_AND.PNG, id=98, 597.73312pt x 111.41624pt>
+<images/LAD_AND.PNG, id=226, 597.73312pt x 111.41624pt>
 File: images/LAD_AND.PNG Graphic file (type png)
 <use images/LAD_AND.PNG>
 Package pdftex.def Info: images/LAD_AND.PNG  used on input line 325.
 (pdftex.def)             Requested size: 358.64264pt x 66.85025pt.
-<images/FBD_AND.PNG, id=99, 457.71pt x 173.14688pt>
+<images/FBD_AND.PNG, id=227, 457.71pt x 173.14688pt>
 File: images/FBD_AND.PNG Graphic file (type png)
 <use images/FBD_AND.PNG>
 Package pdftex.def Info: images/FBD_AND.PNG  used on input line 333.
 (pdftex.def)             Requested size: 274.62813pt x 103.88892pt.
-<images/SCL_AND.PNG, id=100, 995.97093pt x 146.79843pt>
+<images/SCL_AND.PNG, id=228, 995.97093pt x 146.79843pt>
 File: images/SCL_AND.PNG Graphic file (type png)
 <use images/SCL_AND.PNG>
 Package pdftex.def Info: images/SCL_AND.PNG  used on input line 341.
@@ -1603,7 +1649,7 @@ Overfull \hbox (0.49214pt too wide) in paragraph at lines 533--540
 ti-zace prv-ního pa-tra ro-di-ného domu.
  []
 
-<images/topologie.PNG, id=250, 834.11626pt x 502.87875pt>
+<images/topologie.PNG, id=371, 834.11626pt x 502.87875pt>
 File: images/topologie.PNG Graphic file (type png)
 <use images/topologie.PNG>
 Package pdftex.def Info: images/topologie.PNG  used on input line 548.
@@ -1621,7 +1667,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                removing `\textasciicaron' on input line 554.
 
 [28 <./images/topologie.PNG>]
-<images/tagname.PNG, id=266, 1008.01593pt x 434.37282pt>
+<images/tagname.PNG, id=382, 1008.01593pt x 434.37282pt>
 File: images/tagname.PNG Graphic file (type png)
 <use images/tagname.PNG>
 Package pdftex.def Info: images/tagname.PNG  used on input line 565.
@@ -1663,7 +1709,7 @@ uts/m/n/12 . Vo-lání scriptu kaº-dou vte-°inu za-ji²-tuje au-to-ma-ti-zace \T1/
 futs/m/it/12 au-to-mation_modbus_update 
  []
 
-<images/modbusDiagram.PNG, id=282, 904.37875pt x 713.66624pt>
+<images/modbusDiagram.PNG, id=397, 904.37875pt x 713.66624pt>
 File: images/modbusDiagram.PNG Graphic file (type png)
 <use images/modbusDiagram.PNG>
 Package pdftex.def Info: images/modbusDiagram.PNG  used on input line 639.
@@ -1683,7 +1729,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 649--651
 
  []
 
-<images/TL1.PNG, id=295, 274.77657pt x 207.02344pt>
+<images/TL1.PNG, id=410, 274.77657pt x 207.02344pt>
 File: images/TL1.PNG Graphic file (type png)
 <use images/TL1.PNG>
 Package pdftex.def Info: images/TL1.PNG  used on input line 655.
@@ -1698,7 +1744,7 @@ cí jed-noho hard-wa-ro-vého vstupu
 
 
  <./images/TL1.PNG>]
-<images/TL1_s2.PNG, id=304, 650.43pt x 187.45032pt>
+<images/TL1_s2.PNG, id=417, 650.43pt x 187.45032pt>
 File: images/TL1_s2.PNG Graphic file (type png)
 <use images/TL1_s2.PNG>
 Package pdftex.def Info: images/TL1_s2.PNG  used on input line 670.
@@ -1709,12 +1755,12 @@ Overfull \hbox (67.94603pt too wide) in paragraph at lines 670--671
  []
 
 [34 <./images/TL1_s2.PNG>]
-<images/TL2.PNG, id=312, 283.0575pt x 254.45062pt>
+<images/TL2.PNG, id=425, 283.0575pt x 254.45062pt>
 File: images/TL2.PNG Graphic file (type png)
 <use images/TL2.PNG>
 Package pdftex.def Info: images/TL2.PNG  used on input line 682.
 (pdftex.def)             Requested size: 283.0568pt x 254.45pt.
-<images/TL2_s3.PNG, id=313, 641.39626pt x 271.0125pt>
+<images/TL2_s3.PNG, id=426, 641.39626pt x 271.0125pt>
 File: images/TL2_s3.PNG Graphic file (type png)
 <use images/TL2_s3.PNG>
 Package pdftex.def Info: images/TL2_s3.PNG  used on input line 690.
@@ -1883,7 +1929,7 @@ Overfull \hbox (0.68896pt too wide) in paragraph at lines 842--843
  []
 
 [39]
-<images/theme.PNG, id=467, 1924.94156pt x 918.43124pt>
+<images/theme.PNG, id=578, 1924.94156pt x 918.43124pt>
 File: images/theme.PNG Graphic file (type png)
 <use images/theme.PNG>
 Package pdftex.def Info: images/theme.PNG  used on input line 878.
@@ -1892,7 +1938,7 @@ Package pdftex.def Info: images/theme.PNG  used on input line 878.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/scriptEditor.PNG, id=468, 931.98187pt x 634.62094pt>
+<images/scriptEditor.PNG, id=579, 931.98187pt x 634.62094pt>
 File: images/scriptEditor.PNG Graphic file (type png)
 <use images/scriptEditor.PNG>
 Package pdftex.def Info: images/scriptEditor.PNG  used on input line 886.
@@ -1901,22 +1947,32 @@ Package pdftex.def Info: images/scriptEditor.PNG  used on input line 886.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-[41 <./images/theme.PNG> <./images/scriptEditor.PNG>] [42]
+[41 <./images/theme.PNG> <./images/scriptEditor.PNG>]
+<images/home.PNG, id=622, 1416.79312pt x 736.25063pt>
+File: images/home.PNG Graphic file (type png)
+<use images/home.PNG>
+Package pdftex.def Info: images/home.PNG  used on input line 932.
+(pdftex.def)             Requested size: 425.04121pt x 220.87689pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42] [43 <./images/home.PNG>] [44
+
+
+]
 chapter 6.
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 931.
+(hyperref)                removing `\textasciicaron' on input line 936.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 931.
+(hyperref)                removing `\textasciicaron' on input line 936.
 
-[43
-
-
-] [44
+[45] [46
 
 
 ]
@@ -1924,43 +1980,43 @@ chapter 7.
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 942.
+(hyperref)                removing `\textasciicaron' on input line 947.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 943--950
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 943--950
+Underfull \hbox (badness 10000) in paragraph at lines 948--955
 
  []
 
-[45] [46
 
+Underfull \hbox (badness 10000) in paragraph at lines 948--955
 
-]
-chapter without number
-
-Underfull \hbox (badness 1067) in paragraph at lines 962--963
-[]\T1/futs/m/n/12 Home As-si-tant Co-o-k-book. \T1/futs/m/it/12 Home As-si-tant
- \T1/futs/m/n/12 [on-line]. [cit. 2018-04-14]. Do-stupné z:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-[]\T1/futs/m/it/12 Home As-si-tant De-ve-lo-p-ment Gu-ide \T1/futs/m/n/12 [on-l
-ine]. [cit. 2018-02-14]. Do-stupné z:
  []
 
 [47] [48
 
 
 ]
+chapter without number
+
+Underfull \hbox (badness 1067) in paragraph at lines 967--968
+[]\T1/futs/m/n/12 Home As-si-tant Co-o-k-book. \T1/futs/m/it/12 Home As-si-tant
+ \T1/futs/m/n/12 [on-line]. [cit. 2018-04-14]. Do-stupné z:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 969--970
+[]\T1/futs/m/it/12 Home As-si-tant De-ve-lo-p-ment Gu-ide \T1/futs/m/n/12 [on-l
+ine]. [cit. 2018-02-14]. Do-stupné z:
+ []
+
+[49] [50
+
+
+] (bakalarska_prace.lof)
 \tf@lof=\write5
 \openout5 = `bakalarska_prace.lof'.
 
- [49] [50
+ [51] [52
 
 
 ]
@@ -1968,36 +2024,27 @@ chapter A.
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 977.
+(hyperref)                removing `\textasciicaron' on input line 982.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 987.
-[51]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 987.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 992.
+[53]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 992.
  (bakalarska_prace.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 987.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 987.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 992.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 992.
+Package rerunfilecheck Info: File `bakalarska_prace.out' has not changed.
+(rerunfilecheck)             Checksum: 859338FA751AF10CCF4E926CC6847264;1682.
 
 
-Package rerunfilecheck Warning: File `bakalarska_prace.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `bakalarska_prace.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  859338FA751AF10CCF4E926CC6847264;1682.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 987.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 992.
  ) 
 Here is how much of TeX's memory you used:
- 15402 strings out of 493305
- 237697 string characters out of 3138875
- 552214 words of memory out of 3000000
- 18269 multiletter control sequences out of 15000+200000
+ 15454 strings out of 493305
+ 238826 string characters out of 3138875
+ 552555 words of memory out of 3000000
+ 18307 multiletter control sequences out of 15000+200000
  150280 words of font info for 131 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,74p,9116b,1996s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2011,9 +2058,9 @@ tine/LinBiolinumTB.pfb><C:/Users/Fafik/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/uto
 pia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on bakalarska_prace.pdf (51 pages, 741028 bytes).
+Output written on bakalarska_prace.pdf (53 pages, 850867 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 401 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 846 PDF objects out of 1000 (max. 8388607)
+ 404 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -927,7 +927,12 @@ O pravidelné spouštění scriptu se stará automatizace s názvem \textit{upda
 		event_type: time_changed
 		platform: event
 	\end{lstlisting}
-	
+	\begin{figure}[h]
+	\centering
+	\includegraphics[scale = 0.3]{home.PNG}
+	\caption{Home Assistant}
+	\label{fig:my_label}
+\end{figure}
 \chapter{Ověření v praxi}
 Testování bylo zahájeno 1. března 2018. Během testování se postupně zdokonaloval způsob komunikace s PLC. Jako první byla použita varianta, kde každý spínač funguje jako samostatná entita a o komunikaci s PLC se staral sám (neexistovala třída \text{RegisterHandler}). To se ukázalo jako velice nepraktické řešení, a to z toho důvodu, že doba od zmáčknutí spínače po rozsvícení příslušného světla trvali někdy i několik vteřin. 
 \newline
