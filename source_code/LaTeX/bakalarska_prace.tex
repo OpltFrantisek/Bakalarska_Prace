@@ -217,7 +217,7 @@ V Ústí nad Labem dne \today   \hfill Podpis: \makebox[3cm][s]{\dotfill}
 \vfill
 
 \begin{flushright}
-    Děkuji vedoucímu práce \ZT{doc. Pafnutijovi Snědldítětikaši, Ph.D.}\\ 
+    Děkuji vedoucímu práce Ing. Petru Haberzettlovi \\ 
     za neocenitelné rady a pomoc při tvorbě bakalářské práce.
 \end{flushright}
 
@@ -303,7 +303,7 @@ můžeme připojit např. sirény, elektromotory, solenoidy, relé nebo analogov
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale = 0.6]{scanTime.PNG}
-	\caption{scan time}
+	\caption{Scan time}
 	\label{fig:my_label}
 \end{figure}
 \subsection{SIMATIC S7-1200}
@@ -318,6 +318,7 @@ Paměťový prostor kontroleru je rozdělen na pět částí:
 	\item Data block (DB) - Paměť určená pro ukládání dat. \\
 \end{itemize}
 Pro programování kontroleru S7-1200 lze použít tři programovací jazyky LAD, FBD a SCL.
+\cite{Stenerson2015}
 \subsubsection*{LAD}
 	LAD neboli ladder logika je vizuální programovací jazyk založený na konceptu reprezentace programu pomocí reléové logiky.  Program v jazyku LAD je zleva i zprava ohraničena svislými čarami, které reprezentují napájení. Mezi nimi je pak samotná logika programu.
 	\begin{figure}[h]
@@ -338,7 +339,7 @@ Pro programování kontroleru S7-1200 lze použít tři programovací jazyky LAD
 SCL je jazyk vhodný pro programování složitých algoritmů a aritmetických funkcí nebo pro zpracová dat. SCL kombinuje prvky známé z vyšších programovacích jazyků jako jsou například cykly nebo větvení a prvků známích z jazyků typických pro PLC jako je například adresování vstupů a výstupů.
 	\begin{figure}[h]
 	\centering
-	\includegraphics[scale = 0.6]{SCL_AND.PNG}
+	\includegraphics[scale = 0.5]{SCL_AND.PNG}
 	\caption{Funkce AND zapsána pomocí jazyka SCL}
 	\label{fig:my_label}
 \end{figure}
@@ -365,6 +366,7 @@ ESP8285 je variantou ESP8266 s 1024 KB Flash pamětí.
 Při použití ESP8266 máme k dispozici 32bit mikroprocesor s frekvencí 80 MHz 80 KB operační paměti. Dále je vybaven Flash pamětí pro ukládání programu. Velikost této paměti se pohybuje od 521 KB do 4 MB. Dále je k dispozici 16 Vstupně/výstupních pinů, SPI, I²C a UART sběrnice. 
 \newline
 Programovací jazyk pro vytváření programů pro EPS8266 je závislý na použitém firmwaru. Mezi nejpoužívanější firmware patří: NodeMCU (využívá jazyk LUA), Arduino (C++) a MicroPython.
+\cite{Schwartz2016}
 
 
 \section{MQTT}
@@ -394,7 +396,8 @@ Nejideálněji řešení se nabízí použít už některou z vytvořených plat
 Výše zmíněným podmínkám vyhovují dvě platformy. Home Assistant a OpenHAB. 
 Obě tyto platformy jsou rovnocenné. Nakonec byl zvolen Home Assistant a to z důvodu podpory více pluginů a rychlejšího vývoje. 
 \section{Home Assistant}
-Home Assistant je open-source platforma určená pro domácí automatizaci. Home assistant využívá programovací jazyk python3. Díky tomu může běžet na všech operačních systémech, které mají potporu pythonu3. Rozšířením pro Home Assistant se říká komponenty. V aktuální verzi (0.66.1) je k dispozici 1036 komponent.  
+Home Assistant je open-source platforma určená pro domácí automatizaci. Home assistant využívá programovací jazyk python3. Díky tomu může běžet na všech operačních systémech, které mají potporu pythonu3. Rozšířením pro Home Assistant se říká komponenty. V aktuální verzi (0.66.1) je k dispozici 1036 komponent. 
+\cite{VCnCmsNRtY9uRcGa} 
 	\subsection{Instalace}
 	Pro instalaci nejnovější verze Home Assistantu je požadovýna minimální verze pythonu 3.5.3. Déle je doporučeno nainstalovat Home Assistant do virtuálního prostředí.
 	\begin{itemize}
@@ -435,6 +438,7 @@ Home Assistant je open-source platforma určená pro domácí automatizaci. Home
 	\subsection{Psaní automatizací}
 	Home Assistant nabízí tvorbu tzv. automatizací což je prvek který lze přirovnat například k tvorbě eventů ve vyšších programovacích jazycích.
 	Automatice se skládají ze tří části: Trigger, Condition a Action.
+	\cite{u93u76ihSFaMdU5g}
 	\newline
 	\textbf{Trigger} (česky spouštěč) popisuje událost, která pokud nastane tak dojde ke spuštění automatizace. Může se jednat například o osobu, která přijde domu. To je v Home Assistentu reprezentováno změnou stavu u dané osoby z „not\_home“ na „home“.
 	\newline
@@ -443,6 +447,7 @@ Home Assistant je open-source platforma určená pro domácí automatizaci. Home
 	Třetí a poslední částí je \textbf{Action} (česky akce). Zde se definuje akce, která se provede při spuštění triggeru a zároveň splnění všech doplňujících podmínek. Může se jednat například o změnu teploty na termostatu.
 	\newline
 	Níže uvedený kód je příklad zápisu automatizace, která pokud osoba přijde domu po západu slunce tak rozsvítí světla. Pro detekci je zde použita komponenta device\_tracker, která sleduje zařízení připojená k WiFi.
+	\newpage
 	\begin{lstlisting}
 		automation:
 			alias: Zapni svetla kdyz prijdu domu
@@ -462,6 +467,7 @@ Home Assistant je open-source platforma určená pro domácí automatizaci. Home
 	Scripty jsou sekvence akcí, které Home Assistant vykoná. Po vytvoření je script k dispozici jako samostatná entita, ale může být také vložený do automatizací. Stejně jako automatizace se i scripty píší ve značkovacím jazyce YAML. Základní struktura scriptů je seznam klíčů a k nim přiřazených hodnot, které obsahují jednotlivé akce.
 	\newline
 	Níže je příklad scriptu, který svém zavolání zapne světla v koupelně a poté pošle upozornění s textem „Světla v koupelně byla rozsvícena“. Pokud script obsahuje pouze jednu akci tak můžeme element „sequence“ vynechat.
+	\cite{HA_Scripts}
 		\begin{lstlisting}
 Script:
 	Muj_prvni_script:
@@ -476,6 +482,7 @@ Script:
 	
 	\subsection{Tvorba vlastních rozšíření}	
 		I když Home Assitant v základu obsahuje více než tisíc již vytvořených komponent, ne vždy tam najdeme to co potřebujeme. Proto není špatné se alespoň trochu seznámit s tvorbou vlastních komponent.  Každé rozšíření musí obsahovat objekt DOMAIN. V něm je uložen název komponenty a měl by se shodovat s názvem souboru. Dále soubor musí obsahovat metodu \textit{setup(hass, config)}. Tato metoda se volá pouze jednou a to při načtení komponenty. Jak už název napovídá uvnitř této metody se provádí inicializace našeho rozšíření. Množství parametrů metody setup se muže lišit v závislosti na typu rozšíření, ale parametry hass a config jsou přítomny vždy.
+		\cite{HA_custom}
 		\newline
 		Základní objekty:
 		\begin{itemize}
@@ -485,7 +492,8 @@ Script:
 			\item \textit{hass.bus} - tento objekt umožňuje aktivovat nebo sledovat eventy
 			\item \textit{hass.services} - v tomto objektu můžeme registrovat služby
 		\end{itemize}
-Ve níže uvedeném kódu je příklad komponenty, která reprezentuje teplotní čidlo.
+V níže uvedeném kódu je příklad komponenty, která reprezentuje teplotní čidlo.
+\newpage
 \begin{lstlisting}[language=Python]
 from homeassistant.const import TEMP_CELSIUS
 from homeassistant.helpers.entity import Entity
@@ -631,13 +639,13 @@ Soubor modbus\_sw.py obsahuje metody a třídy potřebné pro implementaci spín
 	\item \textbf{turn\_off} - Vypne tlačítko
 \end{itemize}
 
-Pro synchronizaci dat slouží script \textit{script\_modbus\_update} tento script volá metody \textit{handle\_write} a \textit{handle\_read}. Volání scriptu každou vteřinu zajištuje automatizace \textit{automation\_modbus\_update}  
+Pro synchronizaci dat slouží script \textit{script\_modbus\_update} tento script volá metody \textit{handle\_write} a \textit{handle\_read}.\\ Volání scriptu každou vteřinu zajištuje automatizace \textit{automation\_modbus\_update}  
 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale = 0.5]{modbusDiagram.PNG}
-	\caption{modbus komunikace s HA}
+	\caption{Modbus komunikace s HA}
 	\label{fig:my_label}
 \end{figure}
 
@@ -748,7 +756,7 @@ Tato třída implementuje kumunikaci s PLC pomocí protokolu Modbus TCP. Komunik
 
 \end{lstlisting}
 \subsection{ModbusSwitch}
-Implementace třídy \textit{ModbusSwitch} odpovídá svými metodami požadavkům na spínače, které jsou uvedeny v dokumentaci Home Assistantu. Pokud dojde ke stisknutí spínače zavolá se metoda \textit{turn\_on} popřípadě \textit{turn\_off}. Tyto metody změní příslušný bit ve svém registru. Každý spínač obsahuje odkaz na registr, ve kterém se nachází.
+Implementace třídy \textit{ModbusSwitch} odpovídá svými metodami požadavkům na spínače, které jsou uvedeny v dokumentaci Home Assistantu. Pokud dojde ke stisknutí spínače zavolá se metoda \textit{turn\_on} popřípadě \textit{turn\_off}. Tyto metody změní příslušný bit ve svém registru. Každý spínač obsahuje odkaz na registr, ve kterém se nachází. \newpage
 \begin{lstlisting}[language=Python]
 class ModbusSwitch(SwitchDevice):
 
@@ -840,6 +848,7 @@ switch.1_9:
 	\end{lstlisting}
 	\subsection{Konfigurační soubor}
 Do konfiguračního souboru bylo přidáno několik komponent. Komponenta \textit{plc\_modbus} poskytuje služby pro komunikaci s PLC. Spínače, které jsou vygenerovány pomocí komponenty \textit{modbus\_sw} mají nastavený scan interval na dobu jedné sekundy. Díky tomu bude Home Assistant aktualizovat stav spínačů každou vteřinu. V aplikaci jsou použity tři druhy senzorů. První z nich využívá protokol MQTT pro vyčítání teploty v obývacím pokoji. Druhý slouží pro měření výkonu procesoru. To je zde především z důvodu testování, jestli Raspberri Pi 3 má dostatečný výkon pro Home Assistant. Třetí typ senzorů slouží pro měření aktuálního času.\\Komunikace se zařízením Vera+ je uskutečněno pomocí komponenty \textit{vera}, která dokáže automaticky detekovat a zobrazit všechna zařízení připojená k Vera Plus. Poslední přidaná komponenta je vstup pro zadávání času zapnutí/vypnutí intimního osvětlení.
+\newpage
 			\begin{lstlisting}[language=Python]
 	plc_modbus:
 
@@ -876,7 +885,7 @@ Do konfiguračního souboru bylo přidáno několik komponent. Komponenta \texti
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale = 0.2]{theme.PNG}
-		\caption{příklad změny vzhledu}
+		\caption{Příklad změny vzhledu}
 		\label{fig:my_label}
 	\end{figure}
 \section{Scripty a automatizace}
@@ -889,6 +898,7 @@ Pro vytváření Automatizací a Scriptů se mi osvědčilo používat editor in
 	\end{figure}
 	\subsection{Intimní osvětlení}
 	Automatizace na zapínání/vypínaní intimního osvětlení je řešena tak, že se porovnává aktuální systémový čas s časem zapnutí/vypnutí intimního osvětlení. Pokud se časy rovnají  zapne/vypne se příslušný spínač. 
+	\newpage
 		\begin{lstlisting}[language=Python]
 - action:
 	- alias: zapnuti_intim1_obyvak
@@ -908,10 +918,10 @@ Pro vytváření Automatizací a Scriptů se mi osvědčilo používat editor in
 O pravidelné spouštění scriptu se stará automatizace s názvem \textit{update\_modbus}. Jako trigger slouží systémový event \textit{time\_change}, který se vyvolá každou vteřinu. Dále je zde podmínka, aby automatizace běžela pouze pokud není spuštěn script \textit{CteniDatPlc}. Pokud je tato podmínka splněna tak se zavolá script pro aktualizaci registrů.
 
 	\begin{lstlisting}
-		  alias: CteniDatPlc
-		  sequence:
-			 service: plc_modbus.plc_write
-		    service: plc_modbus.plc_read
+	alias: CteniDatPlc
+	sequence:
+		service: plc_modbus.plc_write
+		service: plc_modbus.plc_read
 	\end{lstlisting}
 	\begin{lstlisting}
 	- action:
@@ -948,7 +958,7 @@ Během testovacího období nebyly zaznamenány žádné pády nebo jiné probl�
 Cílem této bakalářské práce bylo umožnit ovládání osvětlení, některých zásuvek a vytápění pomocí webového rozhraní. Tohoto cíle se jednoznačně dosáhnout povedlo. Celý systém se ukázal jako velice stabilní. A k dnešnímu datu (14.4.2018) nebyl zaznamenám, žádný problém, se stabilitou. Celý systém je navržen tak aby se dal snadno rozšířit. Díky tomu je možné přidat další místnosti nebo i celé patro s minimálními úpravami kódu. Ne vše se ale povedlo. Raspberry Pi se postupem času ukázalo jako špatná volba. I když výkonem zatím stačí, tak v případě přidání dalšího patra už nebude jeho výkon stačit. Bude tak potřeba zakoupit silnější počítač pro provozování Home Assistantu.
 \newline
 \newline
-Veškeré zdrojové kódy, které v rámci této bakalářské práce vnikly jsou dostupné na přiloženém DVD. Z důvodu bezpečnosti byli z kódu odebrány veškeré historické záznamy a přístupové klíče. Kromě zdrojových kódů je k dispozici i krátké video s ukázkou funkčnosti.
+Veškeré zdrojové kódy, které v rámci této bakalářské práce vnikly jsou dostupné na přiloženém DVD. Z důvodu bezpečnosti byli z kódu odebrány veškeré historické záznamy a přístupové klíče. Kromě zdrojových kódů je k dispozici i krátké video s ukázkou funkčnosti. Pro zobrazení zdrojových kódů k PLC je potřeba TIA PORTAL V14 SP1 nebo vyšší.
 \newline
 \newline
 S výsledkem bakalářské práce jsem velmi spokojen.
@@ -957,12 +967,19 @@ S výsledkem bakalářské práce jsem velmi spokojen.
 \begin{thebibliography}{99}	
 \bibitem{Berger2013}
 BERGER, Hans. \textit{Automating with SIMATIC S7-1200: configuring, programming and testing with STEP 7 Basic, visualization with HMI Basic}. 2., enl. and rev. ed. Erlangen: Publicis Publ, 2013. ISBN 9783895783852.
-\bibitem{ffS69NVAAq8hODDf}
-BLAJA AUTOMATION PORTAL. \textit{BLAJA AUTOMATION PORTAL} [online]. [cit. 2017-10-24]. Dostupné z: https://www.blaja.cz
 \bibitem{Stenerson2015}
-STENERSON, Jon a David DEEG. \textit{Siemens Step 7 (Tia Portal) Programming, a Practical Approach}. 2015-07. nevim pico: Createspace Independent Publishing Platform, 2015. ISBN 9781515220541.
+STENERSON, Jon a David DEEG. \textit{Siemens Step 7 (Tia Portal) Programming, a Practical Approach}. 2015-07. Createspace Independent Publishing Platform, 2015. ISBN 9781515220541.
+begin{thebibliography}{1}
 \bibitem{Schwartz2016}
 SCHWARTZ, Marco. \textit{Internet of Things with ESP8266} [online]. 1. Packt Publishing Limited, 2016 [cit. 2018-01-14]. ISBN 978-1786468024.
+\bibitem{VCnCmsNRtY9uRcGa}
+Home Assistant Components. \textit{Home Assistant} [online]. [cit. 2018-04-5]. Dostupné z: https://www.home-assistant.io/components/
+\bibitem{u93u76ihSFaMdU5g}
+Automating Home Assistant. \textit{Home Assistant} [online]. [cit. 2018-04-22]. Dostupné z: https://www.home-assistant.io/docs/automation/
+\bibitem{HA_Scripts}
+Script Syntax. Home Assistant [online]. [cit. 2018-04-22]. Dostupné z: https://www.home-assistant.io/docs/scripts/
+\bibitem{HA_custom}
+Creating components. \textit{Home Assistant} [online]. [cit. 2018-04-22]. Dostupné z: https://www.home-assistant.io/developers/creating\_components/
 \bibitem{P0rotXtwgpP2s995}
 Home Assitant Cookbook. \textit{Home Assitant} [online]. [cit. 2018-04-14]. Dostupné z: https://www.home-assistant.io/cookbook/
 \bibitem{EizKg1TNj0hXRBul}
@@ -985,7 +1002,12 @@ GAY, Warren. \textit{Raspberry Pi hardware reference} [online]. New York, NY: Ap
   \hline
   soubor/adresář     &  obsah  \\
   \hline
-  bakalarska-prace.pdf   &   originální text diplomové práce \\
+  bakalarska\_prace.pdf   &   originální text diplomové práce \\
+  Home\_Assistant/source\_code  & zdrojové kódy pro Home Assistant \\
+  ESP8266/source\_code & zdrojové kódy pro ESP8266 (teploměr) \\
+  PLC/source\_code & zdrojové kódy pro Simatic S7-1200 \\
+  
+  
 \end{tabular}
 
 

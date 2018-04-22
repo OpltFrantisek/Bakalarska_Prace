@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  15 APR 2018 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  22 APR 2018 21:19
 entering extended mode
 **./bakalarska_prace.tex
 (bakalarska_prace.tex
@@ -1520,28 +1520,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./images/scanTime.PNG>]
-<images/LAD_AND.PNG, id=226, 597.73312pt x 111.41624pt>
+<images/LAD_AND.PNG, id=227, 597.73312pt x 111.41624pt>
 File: images/LAD_AND.PNG Graphic file (type png)
 <use images/LAD_AND.PNG>
-Package pdftex.def Info: images/LAD_AND.PNG  used on input line 325.
+Package pdftex.def Info: images/LAD_AND.PNG  used on input line 326.
 (pdftex.def)             Requested size: 358.64264pt x 66.85025pt.
-<images/FBD_AND.PNG, id=227, 457.71pt x 173.14688pt>
+<images/FBD_AND.PNG, id=228, 457.71pt x 173.14688pt>
 File: images/FBD_AND.PNG Graphic file (type png)
 <use images/FBD_AND.PNG>
-Package pdftex.def Info: images/FBD_AND.PNG  used on input line 333.
+Package pdftex.def Info: images/FBD_AND.PNG  used on input line 334.
 (pdftex.def)             Requested size: 274.62813pt x 103.88892pt.
-<images/SCL_AND.PNG, id=228, 995.97093pt x 146.79843pt>
+<images/SCL_AND.PNG, id=229, 995.97093pt x 146.79843pt>
 File: images/SCL_AND.PNG Graphic file (type png)
 <use images/SCL_AND.PNG>
-Package pdftex.def Info: images/SCL_AND.PNG  used on input line 341.
-(pdftex.def)             Requested size: 597.58717pt x 88.07973pt.
+Package pdftex.def Info: images/SCL_AND.PNG  used on input line 342.
+(pdftex.def)             Requested size: 497.98425pt x 73.39903pt.
 
-Overfull \hbox (145.1885pt too wide) in paragraph at lines 341--342
+Overfull \hbox (45.58559pt too wide) in paragraph at lines 342--343
  [][] 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./images/LAD_AND.PNG> <./images/FBD_AND.PNG>]
 
@@ -1553,20 +1550,20 @@ See the textcomp package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.349 ...ojen s nap√°jec√≠m vodiƒçem pomoc√≠ 5k‚Ñ¶
+l.350 ...ojen s nap√°jec√≠m vodiƒçem pomoc√≠ 5k‚Ñ¶
                                                    odporu.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [19 <./images/SCL_AND.PNG>]
-Overfull \hbox (0.55397pt too wide) in paragraph at lines 359--368
+Overfull \hbox (0.55397pt too wide) in paragraph at lines 360--370
 \T1/futs/m/n/12 Mezi nej-po-u-∫Ì-va-n•j≤Ì fir-m-ware pat∞Ì: No-deMCU (vy-u-∫Ìv·
  ja-zyk LUA), Ar-duino (C++) a Micro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--375
+Underfull \hbox (badness 10000) in paragraph at lines 373--377
 
  []
 
@@ -1577,15 +1574,15 @@ chapter 3.
 
 ]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 403.
+(Font)              scaled to size 6.99199pt on input line 406.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 403.
+(Font)              scaled to size 5.51999pt on input line 406.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 403.
+(Font)              scaled to size 6.99199pt on input line 406.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 403.
+(Font)              scaled to size 5.51999pt on input line 406.
 
-Overfull \hbox (7.00035pt too wide) in paragraph at lines 427--429
+Overfull \hbox (7.00035pt too wide) in paragraph at lines 430--432
 \T1/futs/m/n/12 vy-ge-ne-ruje au-to-ma-ticky p∞i prv-nÌm spu≤-t•nÌ apli-kace. N
 •-kterÈ v•ci je mo∫nÈ upra-vo-vat p∞Ìmo
  []
@@ -1599,7 +1596,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.474 ...ge: "Svetla v koupelne byla rozsvicena‚Äú
+l.480 ...ge: "Svetla v koupelne byla rozsvicena‚Äú
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1613,7 +1610,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.474 ...ge: "Svetla v koupelne byla rozsvicena‚Äú
+l.480 ...ge: "Svetla v koupelne byla rozsvicena‚Äú
                                                   
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1626,33 +1623,32 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.474 ...ge: "Svetla v koupelne byla rozsvicena‚Äú
+l.480 ...ge: "Svetla v koupelne byla rozsvicena‚Äú
                                                   
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[24] (C:\Users\Fafik\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+[24] [25]
+(C:\Users\Fafik\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [25] [26
-
-
-]
+)
+[26]
 chapter 4.
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 531.
+(hyperref)                removing `\textring' on input line 539.
 
 
-Overfull \hbox (0.49214pt too wide) in paragraph at lines 533--540
+Overfull \hbox (0.49214pt too wide) in paragraph at lines 541--548
 \T1/futs/m/n/12 V r·mci tÈto ba-ka-l·∞-skÈ pr·ce bude re-a-li-zo-v·na au-to-ma-
 ti-zace prv-nÌho pa-tra ro-di-nÈho domu.
  []
 
-<images/topologie.PNG, id=371, 834.11626pt x 502.87875pt>
+<images/topologie.PNG, id=383, 834.11626pt x 502.87875pt>
 File: images/topologie.PNG Graphic file (type png)
 <use images/topologie.PNG>
-Package pdftex.def Info: images/topologie.PNG  used on input line 548.
+Package pdftex.def Info: images/topologie.PNG  used on input line 556.
 (pdftex.def)             Requested size: 417.05711pt x 251.43875pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1660,20 +1656,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [27
+
+
+]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 554.
+(hyperref)                removing `\textasciicaron' on input line 562.
 
 [28 <./images/topologie.PNG>]
-<images/tagname.PNG, id=382, 1008.01593pt x 434.37282pt>
+<images/tagname.PNG, id=394, 1008.01593pt x 434.37282pt>
 File: images/tagname.PNG Graphic file (type png)
 <use images/tagname.PNG>
-Package pdftex.def Info: images/tagname.PNG  used on input line 565.
+Package pdftex.def Info: images/tagname.PNG  used on input line 573.
 (pdftex.def)             Requested size: 302.4071pt x 130.31284pt.
 
-Overfull \hbox (1.3011pt too wide) in paragraph at lines 570--571
+Overfull \hbox (1.3011pt too wide) in paragraph at lines 578--579
 \T1/futs/m/n/12 nosti. Po-£et po-sled-nÌch znak∑ nenÌ pevn• sta-no-ven, ob-sa-h
 uje mi-ni-m·ln• t∞i pÌs-mena s ozna-
  []
@@ -1681,39 +1680,34 @@ uje mi-ni-m·ln• t∞i pÌs-mena s ozna-
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 594.
+(hyperref)                removing `\textasciicaron' on input line 602.
 
 
 Underfull \vbox (badness 6592) has occurred while \output is active []
 
  [29 <./images/tagname.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 600--602
+Underfull \hbox (badness 10000) in paragraph at lines 608--610
 
  []
 
 
-Overfull \hbox (7.55241pt too wide) in paragraph at lines 603--609
+Overfull \hbox (7.55241pt too wide) in paragraph at lines 611--617
 \T1/futs/b/n/12 setup_platform \T1/futs/m/n/12 - roz-≤Ì-∞enÌ bude po-sky-to-vat
  Home As-si-s-tentu dv• slu∫by. Slu∫bu \T1/futs/m/it/12 han-dle_write
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--609
+Underfull \hbox (badness 10000) in paragraph at lines 611--617
 
  []
 
 [30]
-Overfull \hbox (74.42825pt too wide) in paragraph at lines 634--635
-\T1/futs/m/it/12 dle_write \T1/futs/m/n/12 a \T1/futs/m/it/12 han-dle_read\T1/f
-uts/m/n/12 . Vo-l·nÌ scriptu ka∫-dou vte-∞inu za-ji≤-tuje au-to-ma-ti-zace \T1/
-futs/m/it/12 au-to-mation_modbus_update 
- []
-
-<images/modbusDiagram.PNG, id=397, 904.37875pt x 713.66624pt>
+<images/modbusDiagram.PNG, id=409, 904.37875pt x 713.66624pt>
 File: images/modbusDiagram.PNG Graphic file (type png)
 <use images/modbusDiagram.PNG>
-Package pdftex.def Info: images/modbusDiagram.PNG  used on input line 639.
+Package pdftex.def Info: images/modbusDiagram.PNG  used on input line 647.
 (pdftex.def)             Requested size: 452.18828pt x 356.83224pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1722,20 +1716,20 @@ chapter 5.
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 647.
+(hyperref)                removing `\textring' on input line 655.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 649--651
+Underfull \hbox (badness 10000) in paragraph at lines 657--659
 
  []
 
-<images/TL1.PNG, id=410, 274.77657pt x 207.02344pt>
+<images/TL1.PNG, id=422, 274.77657pt x 207.02344pt>
 File: images/TL1.PNG Graphic file (type png)
 <use images/TL1.PNG>
-Package pdftex.def Info: images/TL1.PNG  used on input line 655.
+Package pdftex.def Info: images/TL1.PNG  used on input line 663.
 (pdftex.def)             Requested size: 274.77588pt x 207.02292pt.
 
-Overfull \hbox (0.37277pt too wide) in paragraph at lines 652--663
+Overfull \hbox (0.37277pt too wide) in paragraph at lines 660--671
 \T1/futs/m/n/12 PrvnÌ z nich TL1 slou∫Ì pro ovl·-d·nÌ jed-noho za-∞Ì-zenÌ po-mo
 cÌ jed-noho hard-wa-ro-vÈho vstupu
  []
@@ -1744,32 +1738,32 @@ cÌ jed-noho hard-wa-ro-vÈho vstupu
 
 
  <./images/TL1.PNG>]
-<images/TL1_s2.PNG, id=417, 650.43pt x 187.45032pt>
+<images/TL1_s2.PNG, id=429, 650.43pt x 187.45032pt>
 File: images/TL1_s2.PNG Graphic file (type png)
 <use images/TL1_s2.PNG>
-Package pdftex.def Info: images/TL1_s2.PNG  used on input line 670.
+Package pdftex.def Info: images/TL1_s2.PNG  used on input line 678.
 (pdftex.def)             Requested size: 520.3447pt x 149.96043pt.
 
-Overfull \hbox (67.94603pt too wide) in paragraph at lines 670--671
+Overfull \hbox (67.94603pt too wide) in paragraph at lines 678--679
  [][] 
  []
 
 [34 <./images/TL1_s2.PNG>]
-<images/TL2.PNG, id=425, 283.0575pt x 254.45062pt>
+<images/TL2.PNG, id=437, 283.0575pt x 254.45062pt>
 File: images/TL2.PNG Graphic file (type png)
 <use images/TL2.PNG>
-Package pdftex.def Info: images/TL2.PNG  used on input line 682.
+Package pdftex.def Info: images/TL2.PNG  used on input line 690.
 (pdftex.def)             Requested size: 283.0568pt x 254.45pt.
-<images/TL2_s3.PNG, id=426, 641.39626pt x 271.0125pt>
+<images/TL2_s3.PNG, id=438, 641.39626pt x 271.0125pt>
 File: images/TL2_s3.PNG Graphic file (type png)
 <use images/TL2_s3.PNG>
-Package pdftex.def Info: images/TL2_s3.PNG  used on input line 690.
+Package pdftex.def Info: images/TL2_s3.PNG  used on input line 698.
 (pdftex.def)             Requested size: 384.84071pt x 162.60875pt.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 694.
+(hyperref)                removing `\textasciicaron' on input line 702.
 
 [35 <./images/TL2.PNG> <./images/TL2_s3.PNG>]
 
@@ -1780,7 +1774,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.716 ...reg_value # zjisti hodnotu pozadovan√©ho 
+l.724 ...reg_value # zjisti hodnotu pozadovan√©ho 
                                                   bitu
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1794,7 +1788,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.716 ...reg_value # zjisti hodnotu pozadovan√©ho 
+l.724 ...reg_value # zjisti hodnotu pozadovan√©ho 
                                                   bitu
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1807,7 +1801,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.728 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
+l.736 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
                                                   bitu
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1821,7 +1815,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.728 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
+l.736 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
                                                   bitu
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1834,7 +1828,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.728 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
+l.736 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
                                                   bitu
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1848,7 +1842,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.728 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
+l.736 ...= ~mask  #  Smaze hodnotu po≈æadovan√©ho 
                                                   bitu
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1861,7 +1855,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730 ... Pokud X = True tak nastavi po≈æadovan√Ω 
+l.738 ... Pokud X = True tak nastavi po≈æadovan√Ω 
                                                   bit na 1
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1875,7 +1869,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730 ... Pokud X = True tak nastavi po≈æadovan√Ω 
+l.738 ... Pokud X = True tak nastavi po≈æadovan√Ω 
                                                   bit na 1
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1888,7 +1882,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730 ... Pokud X = True tak nastavi po≈æadovan√Ω 
+l.738 ... Pokud X = True tak nastavi po≈æadovan√Ω 
                                                   bit na 1
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1902,7 +1896,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730 ... Pokud X = True tak nastavi po≈æadovan√Ω 
+l.738 ... Pokud X = True tak nastavi po≈æadovan√Ω 
                                                   bit na 1
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1911,68 +1905,75 @@ or \DeclareInputMath before using this key.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-Overfull \hbox (5.22142pt too wide) in paragraph at lines 751--752
+Overfull \hbox (5.22142pt too wide) in paragraph at lines 759--759
 \T1/futs/m/n/12 Implementace t∞Ìdy \T1/futs/m/it/12 Mod-busSwitch \T1/futs/m/n/
 12 od-po-vÌd· sv˝mi me-to-dami po-∫a-dav-k∑m na spÌ-na£e, kterÈ
  []
 
 [37]
-Overfull \hbox (16.9129pt too wide) in paragraph at lines 798--803
+Overfull \hbox (16.9129pt too wide) in paragraph at lines 806--811
 \T1/futs/m/n/12 Ve dru-hÈm cyklu, se pro ka∫d˝ re-gistr vy-tvo∞Ì 16 spÌ-na£∑. N
 ·-zvy spÌ-na£∑ jsou ve tvaru switch.x_y.
  []
 
-[38]
-Overfull \hbox (0.68896pt too wide) in paragraph at lines 842--843
+
+Underfull \vbox (badness 1616) has occurred while \output is active []
+
+ [38]
+[39]
+Overfull \hbox (0.68896pt too wide) in paragraph at lines 850--851
 \T1/futs/m/n/12 slou∫Ì pro m•-∞enÌ v˝-konu pro-ce-soru. To je zde p∞e-de-v≤Ìm z
  d∑-vodu tes-to-v·nÌ, jestli Raspberri
  []
 
-[39]
-<images/theme.PNG, id=578, 1924.94156pt x 918.43124pt>
+[40]
+<images/theme.PNG, id=594, 1924.94156pt x 918.43124pt>
 File: images/theme.PNG Graphic file (type png)
 <use images/theme.PNG>
-Package pdftex.def Info: images/theme.PNG  used on input line 878.
+Package pdftex.def Info: images/theme.PNG  used on input line 887.
 (pdftex.def)             Requested size: 384.98149pt x 183.68298pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/scriptEditor.PNG, id=579, 931.98187pt x 634.62094pt>
+<images/scriptEditor.PNG, id=595, 931.98187pt x 634.62094pt>
 File: images/scriptEditor.PNG Graphic file (type png)
 <use images/scriptEditor.PNG>
-Package pdftex.def Info: images/scriptEditor.PNG  used on input line 886.
+Package pdftex.def Info: images/scriptEditor.PNG  used on input line 895.
 (pdftex.def)             Requested size: 279.59671pt x 190.38774pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [40]
-[41 <./images/theme.PNG> <./images/scriptEditor.PNG>]
-<images/home.PNG, id=622, 1416.79312pt x 736.25063pt>
+
+Underfull \vbox (badness 3009) has occurred while \output is active []
+
+ [41]
+[42 <./images/theme.PNG> <./images/scriptEditor.PNG>]
+<images/home.PNG, id=638, 1416.79312pt x 736.25063pt>
 File: images/home.PNG Graphic file (type png)
 <use images/home.PNG>
-Package pdftex.def Info: images/home.PNG  used on input line 932.
+Package pdftex.def Info: images/home.PNG  used on input line 942.
 (pdftex.def)             Requested size: 425.04121pt x 220.87689pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43 <./images/home.PNG>] [44
-
-
-]
+[43] [44 <./images/home.PNG>]
 chapter 6.
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 936.
+(hyperref)                removing `\textasciicaron' on input line 946.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 936.
+(hyperref)                removing `\textasciicaron' on input line 946.
 
-[45] [46
+[45
+
+
+] [46
 
 
 ]
@@ -1980,15 +1981,15 @@ chapter 7.
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 947.
+(hyperref)                removing `\textasciicaron' on input line 957.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--955
+Underfull \hbox (badness 10000) in paragraph at lines 958--965
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--955
+Underfull \hbox (badness 10000) in paragraph at lines 958--965
 
  []
 
@@ -1998,13 +1999,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 948--955
 ]
 chapter without number
 
-Underfull \hbox (badness 1067) in paragraph at lines 967--968
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
+[]\T1/futs/m/n/12 Script Syn-tax. Home As-sistant [on-line]. [cit. 2018-04-22].
+ Do-stupnÈ z:
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 982--983
+[]\T1/futs/m/n/12 Creating com-po-nents. \T1/futs/m/it/12 Home As-sistant \T1/f
+uts/m/n/12 [on-line]. [cit. 2018-04-22]. Do-stupnÈ z:
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 984--985
 []\T1/futs/m/n/12 Home As-si-tant Co-o-k-book. \T1/futs/m/it/12 Home As-si-tant
  \T1/futs/m/n/12 [on-line]. [cit. 2018-04-14]. Do-stupnÈ z:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
+Underfull \hbox (badness 10000) in paragraph at lines 986--987
 []\T1/futs/m/it/12 Home As-si-tant De-ve-lo-p-ment Gu-ide \T1/futs/m/n/12 [on-l
 ine]. [cit. 2018-02-14]. Do-stupnÈ z:
  []
@@ -2024,30 +2037,31 @@ chapter A.
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 982.
+(hyperref)                removing `\textasciicaron' on input line 999.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 992.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1014.
 [53]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 992.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1014.
  (bakalarska_prace.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 992.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 992.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1014.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1014.
+
 Package rerunfilecheck Info: File `bakalarska_prace.out' has not changed.
 (rerunfilecheck)             Checksum: 859338FA751AF10CCF4E926CC6847264;1682.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 992.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1014.
  ) 
 Here is how much of TeX's memory you used:
- 15454 strings out of 493305
- 238826 string characters out of 3138875
- 552555 words of memory out of 3000000
- 18307 multiletter control sequences out of 15000+200000
+ 15460 strings out of 493305
+ 238917 string characters out of 3138875
+ 552335 words of memory out of 3000000
+ 18310 multiletter control sequences out of 15000+200000
  150280 words of font info for 131 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,74p,9116b,1996s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,11n,74p,9116b,1349s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Fafik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 tcrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/
 Fafik/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/
@@ -2058,9 +2072,9 @@ tine/LinBiolinumTB.pfb><C:/Users/Fafik/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/uto
 pia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on bakalarska_prace.pdf (53 pages, 850867 bytes).
+Output written on bakalarska_prace.pdf (53 pages, 852598 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 404 named destinations out of 1000 (max. 500000)
+ 855 PDF objects out of 1000 (max. 8388607)
+ 407 named destinations out of 1000 (max. 500000)
  289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
